@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.Muskan {
+    width: 100%; /* Make it responsive */
+    max-width: 100%; /* Stretch the container to full width */
+    background: #fff; /* Background color */
+    padding: 40px 30px; /* Inner padding */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Push logo and navigation to opposite sides */
+    align-items: center;
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.title{
+    text-align: center;
+    font-family: cursive;
+}
+
+.Muskan h2 {
+    margin: 0; /* Remove default margin for the heading */
+    font-size: 24px; /* Adjust font size */
+    color: #333; /* Darker text color */
+    font-family: cursive; /* Font styling */
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Push navigation links to the far right */
+    gap: 15px; /* Space between the links */
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-list a:hover {
+    color: pink; /* Darker shade on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.welcome{
+    text-align: center;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+.welcome-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 100px;
+    font-family: cursive;
+
+}
+
+.welcome-content p {
+    font-size: 35px; /* Placeholder font size */
+    margin: 5px 0;
+
+}
+
+.welcome-content sub {
+    font-size: px;
+    color: #555; /* Placeholder font color */
+}
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+
+.footer-contect p {
+    margin: 0;
+    font-size: 14px;
+    color: #555; /* Placeholder text color */
+    margin-top: auto;
+}
+
+.contact-button{
+    border-radius: 1000px;
+    background-color: pink;
+    color: black;
+}
+
+.contact-button:hover{
+    background-color: whitesmoke;
+    color:black;
+}
